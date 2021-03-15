@@ -1,0 +1,28 @@
+{
+    "name": "michnaadam33/ibexa-task",
+    "description": "Developer TASK V2",
+    "authors": [
+        {
+            "name": "Adam Michna",
+            "email": "michnaadam33@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-http": "*",
+        "webmozart/assert": "^1.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phpspec/prophecy-phpunit": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "App\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
